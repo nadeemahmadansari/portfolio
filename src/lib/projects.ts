@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description:
       "A Generative AI assistant that automates content creation and enhances productivity in Google Workspace tools.",
     fullDescription:
-      "A Generative AI assistant that automates content creation and enhances productivity in Google Workspace tools. Built AI integrations using Google Apps Script, Gen AI, and CLASP, reducing manual effort in data processing by 50%. Achieved 4+ million downloads and received 300+ reviews on the Google Workspace Marketplace, demonstrating strong adoption and positive user feedback.",
+      "A Generative AI assistant that automates content creation and enhances productivity in Google Workspace tools. Built AI integrations using Google Apps Script, Gen AI, and CLASP, reducing manual effort in data processing by 50%. Achieved 6+ million downloads and received 300+ reviews on the Google Workspace Marketplace, demonstrating strong adoption and positive user feedback.",
     image: "/projects/ai.jpg",
     techStack: [
       "React.js",

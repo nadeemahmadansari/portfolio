@@ -6,7 +6,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const highlights = [
-  "Senior Full Stack Expertise (4+ years)",
+  "Senior Full Stack Expertise (5+ years)",
   "Led engineering for products with 6M+ users",
   "Specialist in React, Next.js, and Node.js",
   "Strong focus on system design and scalability",

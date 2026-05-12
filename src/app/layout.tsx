@@ -25,23 +25,33 @@ export const metadata: Metadata = {
     default: "Nadeem | Senior Full Stack Developer",
     template: "%s | Nadeem",
   },
-  description: "Senior Full Stack Developer specializing in React, Next.js, and building high-impact digital products. 4+ years of experience in solving complex technical challenges.",
-  keywords: ["Full Stack Developer", "React Developer", "Next.js Expert", "Node.js", "TypeScript", "Product Engineer"],
+  description:
+    "Senior Full Stack Developer specializing in React, Next.js, and building high-impact digital products. 5 years of experience in solving complex technical challenges.",
+  keywords: [
+    "Full Stack Developer",
+    "React Developer",
+    "Next.js Expert",
+    "Node.js",
+    "TypeScript",
+    "Product Engineer",
+  ],
   authors: [{ name: "Nadeem" }],
   creator: "Nadeem",
-  metadataBase: new URL("https://nadeem.dev"),
+  metadataBase: new URL("https://iamnadeem.in"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nadeem.dev",
+    url: "https://iamnadeem.in",
     title: "Nadeem | Senior Full Stack Developer",
-    description: "Building scalable, high-performance web applications and digital products.",
+    description:
+      "Building scalable, high-performance web applications and digital products.",
     siteName: "Nadeem Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Nadeem | Senior Full Stack Developer",
-    description: "Building scalable, high-performance web applications and digital products.",
+    description:
+      "Building scalable, high-performance web applications and digital products.",
     creator: "@yourusername",
   },
   robots: {
@@ -58,23 +68,24 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Nadeem",
-    "url": "https://nadeem.dev",
-    "jobTitle": "Senior Full Stack Developer",
-    "description": "Senior Full Stack Developer specializing in React, Next.js, and building high-impact digital products.",
-    "sameAs": [
+    name: "Nadeem",
+    url: "https://nadeem.dev",
+    jobTitle: "Senior Full Stack Developer",
+    description:
+      "Senior Full Stack Developer specializing in React, Next.js, and building high-impact digital products.",
+    sameAs: [
       "https://github.com/yourusername",
       "https://linkedin.com/in/yourusername",
-      "https://twitter.com/yourusername"
+      "https://twitter.com/yourusername",
     ],
-    "knowsAbout": [
+    knowsAbout: [
       "React",
       "Next.js",
       "TypeScript",
       "Node.js",
       "Full Stack Development",
-      "Product Design"
-    ]
+      "Product Design",
+    ],
   };
 
   return (
@@ -101,9 +112,7 @@ export default function RootLayout({
             <CustomCursor />
             <BackgroundGrid />
             <Navbar />
-            <main className="flex-grow pt-20">
-              {children}
-            </main>
+            <main className="flex-grow pt-20">{children}</main>
             <Footer />
             {/* <ChatAssistant /> */}
           </SmoothScroll>

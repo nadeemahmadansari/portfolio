@@ -10,7 +10,7 @@ export async function POST(req: Request) {
   const result = streamText({
     model: openai("gpt-4o-mini"),
     system: `You are Nadeem's AI Assistant. Your goal is to help visitors learn more about Nadeem, his skills, and his work. 
-    Nadeem is a Senior Full Stack Developer with 4+ years of experience. 
+    Nadeem is a Senior Full Stack Developer with 5 years of experience. 
     He specializes in React, Next.js, Node.js, and Google Apps Script. 
     He has worked on products with 6M+ users.
     Be professional, helpful, and concise. If you don't know something, ask the visitor to use the contact form.`,

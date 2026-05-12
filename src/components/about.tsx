@@ -45,7 +45,7 @@ const skillCategories = [
 ];
 
 const stats = [
-  { label: "Years Exp", value: "4+", icon: Calendar },
+  { label: "Years Exp", value: "5+", icon: Calendar },
   { label: "Users Impacted", value: "6M+", icon: Users2 },
   { label: "Projects Done", value: "5+", icon: CheckCircle2 },
   // { label: "ROI Delivered", value: "300%", icon: TrendingUp },

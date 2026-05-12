@@ -98,7 +98,7 @@ export function Hero() {
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 className="block"
               >
-                Hi, I'm Nadeem Ahmad. A Full Stack Developer with 4+ years of
+                Hi, I'm Nadeem Ahmad. A Full Stack Developer with 5+ years of
                 experience.
               </motion.span>
             </h1>
@@ -153,19 +153,19 @@ export function Hero() {
 
             <div className="flex items-center gap-4 text-muted-foreground sm:ml-auto">
               <a
-                href="#"
+                href="https://github.com/nadeemahmadansari"
                 className="hover:text-foreground transition-colors p-2 bg-secondary/50 rounded-lg"
               >
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/nadeem-ahmad-a7563477/"
                 className="hover:text-foreground transition-colors p-2 bg-secondary/50 rounded-lg"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="mailto:contact@nadeem.com"
+                href="mailto:nadeem2136@gmail.com"
                 className="hover:text-foreground transition-colors p-2 bg-secondary/50 rounded-lg"
               >
                 <Mail className="h-5 w-5" />
@@ -197,7 +197,7 @@ export function Hero() {
                 ))}
               </div>
               <p className="text-xs text-muted-foreground font-medium uppercase tracking-widest">
-                Trusted by 50+ Clients Worldwide
+                Trusted by 5+ Clients Worldwide
               </p>
             </div>
           </motion.div>

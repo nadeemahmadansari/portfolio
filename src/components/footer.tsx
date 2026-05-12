@@ -3,9 +3,21 @@ import { Github, Linkedin, ExternalLink } from "lucide-react";
 import { Container } from "./container";
 
 const socialLinks = [
-  { name: "LinkedIn", href: "https://linkedin.com/in/yourprofile", icon: Linkedin },
-  { name: "GitHub", href: "https://github.com/yourusername", icon: Github },
-  { name: "Fiverr", href: "https://fiverr.com/yourprofile", icon: ExternalLink },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/nadeem-ahmad-a7563477/",
+    icon: Linkedin,
+  },
+  {
+    name: "GitHub",
+    href: "https://github.com/nadeemahmadansari",
+    icon: Github,
+  },
+  {
+    name: "Fiverr",
+    href: "https://fiverr.com/yourprofile",
+    icon: ExternalLink,
+  },
 ];
 
 export function Footer() {
@@ -44,14 +56,20 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             &copy; {currentYear} Nadeem. All rights reserved.
           </p>
-          <div className="flex items-center gap-6 text-xs text-muted-foreground">
-            <Link href="#privacy" className="hover:text-foreground transition-colors">
+          {/* <div className="flex items-center gap-6 text-xs text-muted-foreground">
+            <Link
+              href="#privacy"
+              className="hover:text-foreground transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link href="#terms" className="hover:text-foreground transition-colors">
+            <Link
+              href="#terms"
+              className="hover:text-foreground transition-colors"
+            >
               Terms of Service
             </Link>
-          </div>
+          </div> */}
         </div>
       </Container>
     </footer>
